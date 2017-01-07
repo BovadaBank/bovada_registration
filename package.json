@@ -1,0 +1,37 @@
+{
+  "name": "bovada_registration",
+  "version": "1.0.0",
+  "description": "programmatically creates a new bovada account",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "mocha --compilers js:babel-register --timeout=1000000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BovadaBank/bovada_registration.git"
+  },
+  "keywords": [
+    "bovada",
+    "registration"
+  ],
+  "author": "Jon Kolman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BovadaBank/bovada_registration/issues"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-register": "^6.5.1",
+    "bluebird": "^3.2.2",
+    "superagent": "^1.8.4",
+    "superagent-bluebird-promise": "^4.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "homepage": "https://github.com/BovadaBank/bovada_registration#readme"
+}
