@@ -69,7 +69,7 @@ describe('create a bovada account', () => {
       '2156638173',
       'landon'
       )
-    createBovadaAccount(user, 'US', '19027').then(res => {
+    createBovadaAccount(user).then(res => {
       expect(res.status).to.eq(201)
       done()
     })
